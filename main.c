@@ -37,9 +37,9 @@ void show_board(void)
     {
         for ( j = 0 ; j < 3 ; j++ )
         {
-            printf("|\t%3c\t|", user_choice);
+            printf("\t|\t%3c\t|", user_choice);
         }
-        printf("\n");
+        printf("\n\n");
     }
 
 
